@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: pink;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+header{
+    background-color: rgb(249, 129, 149);
+    width: 100%;
+    height: 150px;
+    box-shadow: 1px 1px 11px;
+    
+
+}
+header .logo{
+    width: 70px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px;
+}
+button{
+    background-color: rgba(141, 11, 117, 0.39);
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    margin-left: 70%;
+}
+.pic_mobile-legend{
+    width: 100px;
+}
+.mobile-legend{
+    background-color: yellow;
+    width: 150px;
+    height: 200px;
+   border-radius: 20px;
+    text-align: center;
+    border: 2px blue solid;
+    
+}
+.top-up{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.top-up:hover{
+    background-color: pink;
+    border: none;
+}
